@@ -7,4 +7,5 @@
 	_start:
 			movl $0, %ebx
 			movl $1, %eax
-			int $0x80 
+			int $0x80
+		ret 
